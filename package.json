@@ -1,0 +1,8 @@
+{
+  "name": "ts-utils",
+  "version": "0.1.0",
+  "description": "Utility types and functions for TypeScript projects.",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false
+}
