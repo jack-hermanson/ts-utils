@@ -1,2 +1,3 @@
 # ts-utils
- Utility types and functions for TypeScript projects.
+
+Utility types and functions for TypeScript projects.
