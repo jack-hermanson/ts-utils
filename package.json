@@ -1,15 +1,16 @@
 {
     "name": "jack-hermanson-ts-utils",
     "files": [
-        "src"
+        "lib"
     ],
+    "types": "lib/index",
     "repository": {
         "type": "git",
         "url": "https://github.com/jack-hermanson/ts-utils"
     },
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Utility types and functions for TypeScript projects.",
-    "main": "index.js",
+    "main": "lib/index",
     "license": "MIT",
     "private": false,
     "devDependencies": {
