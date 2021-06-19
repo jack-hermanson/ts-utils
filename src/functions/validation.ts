@@ -51,11 +51,13 @@ export const doesNotConflict = async <T>({
         let conflict = false;
         const matchingRecord = await repo.findOne({ [pair.name]: pair.value });
         if (matchingRecord) {
-            conflict = matchingRecord["id"] !== existingRecord["id"];
-        } else {
-            // there is no existing record to compare against...
-            // this is not unique
-            conflict = true;
+            if (existingRecord) {
+                conflict = matchingRecord["id"] !== existingRecord["id"];
+            } else {
+                // there is no existing record to compare against...
+                // this is not unique
+                conflict = true;
+            }
         }
         if (conflict) {
             conflictingProperties.push(pair.name);
