@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 
 export interface AlertType {
-    text: string;
-    color: string | ReactNode;
+    text?: string;
+    color: string;
+    children?: ReactNode;
 }
