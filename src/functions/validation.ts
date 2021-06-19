@@ -8,9 +8,9 @@ If the request is not valid, it will send a 400 request with details
 and return false.
 Otherwise, it will return true.
  */
-export const validateRequest = async (
+export const validateRequest = async <T>(
     schema: Joi.Schema,
-    req: Request,
+    req: Request<T>,
     res: Response
 ): Promise<boolean> => {
     try {
