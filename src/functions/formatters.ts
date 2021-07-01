@@ -18,6 +18,10 @@ export function formatPercent(percentage: number): string {
     return `${percentage.toFixed(3)}%`;
 }
 
+/**
+ * @deprecated - Use the string extension .capitalizeFirst() instead.
+ * @param text - The string you want to capitalzie the first letter of.
+ */
 export function capitalizeFirst(text: string): string {
     return `${text.charAt(0).toUpperCase()}${text.substr(1)}`;
 }
