@@ -7,4 +7,4 @@ export * from "./types/AlertType";
 export * from "./objects/alerts";
 export * from "./types/AuthHeader";
 export * from "./types/DropdownAction";
-export * as StringExtensions from "./extensions/StringExtensions";
+export * from "./extensions/stringExtensions";
