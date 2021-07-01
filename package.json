@@ -8,7 +8,7 @@
         "type": "git",
         "url": "https://github.com/jack-hermanson/ts-utils"
     },
-    "version": "1.5.0",
+    "version": "1.6.0",
     "description": "Utility types and functions for TypeScript projects.",
     "main": "lib/index",
     "license": "MIT",

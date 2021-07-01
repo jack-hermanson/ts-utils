@@ -7,3 +7,4 @@ export * from "./types/AlertType";
 export * from "./objects/alerts";
 export * from "./types/AuthHeader";
 export * from "./types/DropdownAction";
+export * from "./extensions/StringExtensions";
