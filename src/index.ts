@@ -8,3 +8,5 @@ export * from "./objects/alerts";
 export * from "./types/AuthHeader";
 export * from "./types/DropdownAction";
 export * from "./extensions/stringExtensions";
+export * from "./functions/validation";
+export * from "./functions/errors";
