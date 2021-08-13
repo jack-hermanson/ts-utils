@@ -13,3 +13,6 @@ export * from "./functions/validation";
 export * from "./functions/errors";
 export * from "./types/ResourceModel";
 export * from "./types/DateResourceModel";
+export * from "./objects/createdColumn";
+export * from "./objects/updatedColumn";
+export * from "./objects/deletedAtColumn";
