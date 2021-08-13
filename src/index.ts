@@ -11,3 +11,5 @@ export * from "./extensions/stringExtensions";
 export * from "./extensions/dateExtensions";
 export * from "./functions/validation";
 export * from "./functions/errors";
+export * from "./types/ResourceModel";
+export * from "./types/DateResourceModel";
