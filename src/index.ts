@@ -15,4 +15,4 @@ export * from "./types/ResourceModel";
 export * from "./types/DateResourceModel";
 export * from "./objects/createdColumn";
 export * from "./objects/updatedColumn";
-export * from "./objects/deletedAtColumn";
+export * from "./objects/deletedColumn";
