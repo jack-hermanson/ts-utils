@@ -16,3 +16,4 @@ export * from "./types/DateResourceModel";
 export * from "./objects/createdColumn";
 export * from "./objects/updatedColumn";
 export * from "./objects/deletedColumn";
+export * from "./objects/joiOptions";
