@@ -2,6 +2,7 @@ import Joi from "joi";
 import { Request, Response } from "express";
 import { HTTP } from "../types/Http";
 import { Repository } from "typeorm";
+import { joiOptions } from "../objects/joiOptions";
 
 /*
 If the request is not valid, it will send a 400 request with details
@@ -14,7 +15,7 @@ export const validateRequest = async <T>(
     res: Response
 ): Promise<boolean> => {
     try {
-        await schema.validateAsync(req.body);
+        await schema.validateAsync(req.body, joiOptions);
         return true;
     } catch (error) {
         res.status(HTTP.BAD_REQUEST).json(
