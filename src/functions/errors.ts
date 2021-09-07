@@ -17,7 +17,7 @@ export const conflictError = (
     name?: string,
     useAn?: boolean
 ): string => {
-    return `A${useAn === true && "n"} ${
+    return `A${useAn ? "n" : ""} ${
         name ? name : "record"
     } already exists with the same ${conflictingProperties.join(", ")}.`;
 };
