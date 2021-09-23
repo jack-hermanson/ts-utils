@@ -18,3 +18,4 @@ export * from "./objects/updatedColumn";
 export * from "./objects/deletedColumn";
 export * from "./objects/joiOptions";
 export * from "./enums/Sex";
+export * from "./types/AggregateResourceModel";
