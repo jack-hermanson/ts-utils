@@ -11,6 +11,7 @@ export * from "./types/Sex";
 export * from "./types/Request";
 export * from "./extensions/stringExtensions";
 export * from "./extensions/dateExtensions";
+export * from "./extensions/numberExtensions";
 export * from "./functions/validation";
 export * from "./functions/errors";
 export * from "./types/ResourceModel";
